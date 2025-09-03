@@ -11,15 +11,10 @@ class ProdutoController extends Controller
     {
         // $produtos = Produto::all();
         // return dd($produtos);
-        $nome = 'Rodrigo';
-        $idade = 28;
+        $nome = '';
+        $idade = 31;
         $html = '<h1>Olá eu sou H1</h1>';
 
         return view('site.home', compact('nome', 'idade', 'html'));
-    }
-
-    public function show($id)
-    {
-        if
     }
 }

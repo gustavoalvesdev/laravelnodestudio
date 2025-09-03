@@ -4,9 +4,9 @@
 
 @section('conteudo')
 
-    {{-- Isso é um comentário --}}
+    {{-- Estruturas de Controle --}}
+    @guest
+        Olá, visitante.
+    @endguest
 
-    {{-- isset9($nome) ? 'existe' : 'não existe' --}}
-
-    {{ $teste ?? 'padrão' }}
 @endsection
