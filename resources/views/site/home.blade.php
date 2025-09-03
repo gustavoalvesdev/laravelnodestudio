@@ -4,9 +4,11 @@
 
 @section('conteudo')
 
-    {{-- Estruturas de Controle --}}
-    @guest
-        Olá, visitante.
-    @endguest
+    {{-- Estruturas de repetição --}}
+    @forelse ($frutas as $fruta)
+        {{ $fruta }}<br>
+    @empty
+        array está vazio
+    @endforelse
 
 @endsection

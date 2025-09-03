@@ -14,7 +14,8 @@ class ProdutoController extends Controller
         $nome = '';
         $idade = 31;
         $html = '<h1>Olá eu sou H1</h1>';
+        $frutas = ['banana', 'laranja', 'maçã'];
 
-        return view('site.home', compact('nome', 'idade', 'html'));
+        return view('site.home', compact('nome', 'idade', 'html', 'frutas'));
     }
 }
