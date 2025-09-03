@@ -4,6 +4,9 @@
 
 @section('conteudo')
 
-    <h1>Esta é Nossa Home</h1>
+    {{-- Isso é um comentário --}}
 
+    {{-- isset9($nome) ? 'existe' : 'não existe' --}}
+
+    {{ $teste ?? 'padrão' }}
 @endsection
