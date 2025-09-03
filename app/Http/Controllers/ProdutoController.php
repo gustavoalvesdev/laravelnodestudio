@@ -17,4 +17,9 @@ class ProdutoController extends Controller
 
         return view('site.home', compact('nome', 'idade', 'html'));
     }
+
+    public function show($id)
+    {
+        if
+    }
 }
